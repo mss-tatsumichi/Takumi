@@ -1,0 +1,99 @@
+body{
+    margin:0;
+}
+
+h2{
+    text-align: center;
+}
+
+table{
+    width:80%;
+    margin:auto;
+}
+
+table,tr,th{
+    border-collapse: collapse;
+}
+
+th{
+    border: 1px solid #333;
+    height:50px;
+}
+
+tr{
+    border-left: 2px solid #333;
+    border-right: 2px solid #333;
+}
+
+tr:nth-child(2n+1){
+    border-top: 2px solid #333;
+}
+
+tr:last-child{
+    border-bottom: 2px solid #333;
+}
+
+.detail_name{
+    width:40%;
+    background: rgb(163, 212, 240);
+}
+
+.detail{
+    width:60%;
+}
+
+.error-msg{
+    width:300px;
+    height:30px;
+    margin: 30px auto 0;
+}
+
+.detail-btn{
+    width:300px;
+    height:70px;
+    margin:30px auto 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap:15px;
+}
+
+
+.detail-edit, .detail-delete{
+    cursor: pointer;
+    height:50px;
+    width:80px;
+}
+
+.detail-edit{
+    margin:0;
+}
+
+/* #dialog{
+    width:200px;
+    display: none;
+    padding:30px 20px;
+    border: 2px solid #000;
+    margin: auto;
+} */
+
+.error-msg{
+    width:200px;
+    height:50px;
+    margin: auto;
+    text-align: center;
+    color:red;
+}
+/* 
+#delete-form{
+    width:50px;
+    height: 80px;
+    float: right;
+    margin: 0;
+}
+
+#edit-form{
+    width:50px;
+    height: 80px;
+    margin: 0;
+} */

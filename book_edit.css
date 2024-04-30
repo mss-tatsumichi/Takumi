@@ -1,0 +1,51 @@
+#edit_form{
+    width:1000px;
+    margin: 100px auto 0;
+    text-align: center;
+}
+
+#edit_form > div{
+    width:800px;
+    margin-top:5px;
+}
+
+.id{
+    margin-left:13px;
+}
+
+#title{
+    width:400px;
+}
+
+.title{
+    margin-left:180px;
+}
+
+#status{
+    width:100px;
+}
+
+.status{
+    margin-left:30px;
+}
+
+#purchase_price,#point{
+    width:140px;
+}
+
+.purchase_price{
+    margin-left:60px;
+}
+
+.point{
+    margin-left: 52px;
+}
+
+label{
+    margin-left:50px;
+}
+
+.error-msg{
+    margin:10px auto 10px;
+    color:red;
+}

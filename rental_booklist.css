@@ -1,0 +1,90 @@
+main{
+    width:75%;
+    height:100%;
+    margin:auto;
+}
+
+h1{
+    font-size: 25px;
+}
+
+.error-msg{
+    width:100%;
+    margin-right:auto;
+    border-top: 1px solid #aaa;
+    padding-top:15px;
+    color:red;
+    font-size:15px;
+}
+
+#search_form{
+    width:400px;
+    text-align: center;
+    margin: 50px auto 100px;
+}
+
+#search_form > p{
+    width:50px;
+    display: block;
+    font-weight:bold;
+    font-size:20px;
+}
+
+.form{
+    width:400px;
+    margin:0 auto 8px 0;
+    text-align: left;
+}
+
+#title{
+    width:250px;
+}
+
+#class{
+    width:100px;
+}
+
+#span{
+    width:200px;
+}
+
+label{
+    display: inline-block;
+    width:90px;
+}
+
+.btn-form{
+    width:200px;
+    margin:20px auto 0;
+}
+
+table{
+    width:100%;
+    margin: 50px auto 0;
+    border:1px solid #333;
+}
+
+tr,th{
+    border-collapse: separate;
+}
+
+tr,th{
+    border:1px solid #333;
+}
+
+th{
+    max-height:15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+th:first-child{
+    min-width:500px;
+    max-width: 500px;
+}
+
+table tr:first-child{
+    background: rgb(48, 212, 234);
+    max-height: 20px;
+}

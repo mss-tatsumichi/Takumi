@@ -1,0 +1,110 @@
+body{
+    margin:0;
+}
+
+h2{
+    display: block;
+    width: 400px;
+    margin: auto;
+    text-align: center;
+}
+
+table{
+    width:90%;
+    margin:auto;
+}
+    
+table,tr,th{
+    border-collapse: collapse;
+}
+
+tr,th{
+    border: 1px solid #333;
+}
+
+th{
+    max-height:15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.id{
+   min-width: 75px;
+}
+
+.title{
+    min-width:800px;
+}
+
+.rental_status{
+    min-width:120px;
+}
+
+.price{
+    min-width:120px;
+}
+
+.saleday{
+    min-width:160px;
+}
+
+.userdetail{
+    min-width:100px;
+} 
+
+/* ４/１１ここまで */
+
+form{
+    margin:0 auto 50px;
+    text-align: center;
+}
+
+
+form > :not(:last-child) {
+    margin-bottom:10px;
+}
+
+.titles{
+    width:400px;
+    margin:0 auto;
+}
+
+.price{
+    width:100%;
+}
+
+#search,#reset{
+    cursor: pointer;
+}
+
+#search{
+    margin-right:5px;
+}
+
+.error-msg{
+    text-align: center;
+    width:500px;
+    margin: 50px auto 0;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.btn{
+    transform: translateX(-30px);
+}
+
+.reset{
+    transform: translateX(50px) translateY(-76px);
+    width:30px;
+}
+
+#reset{
+    display: inline-block;
+    cursor: pointer;
+    /* transform: translateX(50px); */
+}
+
+table tr:nth-child(1){
+    background: rgb(143, 247, 247);
+}

@@ -1,0 +1,34 @@
+form{
+    width:500px;
+    margin:0 auto;
+    text-align: center;
+}
+
+.title{
+    margin-left:130px;
+}
+
+.price{
+    margin-left: 22px;
+}
+
+.point{
+    margin-left: 6px;
+}
+
+
+#title{
+    width:250px;
+}
+
+#price{
+    width:150px;
+}
+
+#point{
+    width:150px;
+}
+
+.error-msg{
+    color:red;
+}

@@ -1,0 +1,32 @@
+body{
+    margin:0;
+}
+
+
+
+header{
+    width:100%;
+    height: 100px;
+    background:rgb(172, 172, 172);
+}    
+.header-menu{
+    float:right;
+}
+
+.header-menu p {
+    text-align: right;
+    padding-right:12px;
+    font-size: 18px;
+}
+
+.header-btn{
+    all:unset;
+    background: white;
+    padding:3px 5px;
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+button:hover{
+    opacity: .7;
+}

@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+}
+
+main {
+    width: 90%;
+    margin: auto;
+}
+
+.error-msg {
+    border-top: 1px solid #333;
+    padding-top: 15px;
+    margin-bottom: 50px;
+    color:red;
+}
+
+.cart {
+    width: 90%;
+    margin: 50px auto 0;
+    border: 1px solid #333;
+}
+
+.cart tr,
+th {
+    border-collapse: separate;
+    border: 1px solid #333;
+}
+
+.cart th {
+    height: 15px;
+    line-height: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.cart th:first-child {
+    min-width: 420px;
+    max-width: 420px;
+}
+
+.cart th:nth-child(3) {
+    width: 400px;
+}
+
+.cart th:nth-child(4) {
+    min-width: 140px;
+}
+
+.cart tr:first-child {
+    background: rgb(48, 212, 234);
+    max-height: 20px;
+}
+
+.sum {
+    width: 90%;
+    margin: 10px auto 0;
+    border: 1px solid #333;
+}
+
+.sum th{
+    height:70px;
+}
+
+.sum th:first-child {
+    width: 45%;
+}
+
+.btn-rental{
+    width:600px;
+    margin: 30px auto 0;
+    text-align: center;
+}
+
+#delete > input {
+    cursor: pointer;
+}
+
+.btn-rental > input{
+    cursor: pointer;
+    width:60px;
+    height:35px;
+}
